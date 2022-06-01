@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".StartPage"
+android:background="#FFFFE0">
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:src="@drawable/start"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="35dp"></ImageView>
+
+<Button
+    android:id="@+id/start"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="140dp"
+    android:layout_marginTop="350dp"
+    android:backgroundTint="#705238"
+    android:gravity="center"
+    android:text="start"
+    android:textStyle="bold"></Button>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:gravity="center"
+        android:layout_marginTop="500dp">
+
+        <ImageView
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:src="@drawable/copy"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022 Syuhana.Musfira"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"/>
+    </TableRow>
+
+</RelativeLayout>
